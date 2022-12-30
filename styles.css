@@ -1,0 +1,206 @@
+@import url('https://fonts.googleapis.com/css2?family=Hanken+Grotesk:wght@100;200;300;400;500&display=swap');
+
+
+body{
+
+    min-height: 100vh;
+    background-color: rgb(24, 24, 24);
+    font-family: 'Hanken Grotesk', sans-serif;
+
+}
+
+footer{
+
+    color: white;
+    font-weight: 100;
+    background-color: rgb(38, 38, 38);
+    position: sticky;
+    top: 100%;
+    padding-top: 1.8rem;
+    padding-bottom: 1.8rem;
+    margin-top: 10rem;
+    text-align: center;
+    text-transform: uppercase;
+
+}
+
+#item-list li{
+
+    background-color: rgb(38, 38, 38);
+    color: rgb(211, 211, 211);
+    padding-top: 0.85rem;
+    padding-bottom: 0.85rem;
+
+}
+
+body > div.container > h3{
+
+    color: white;
+
+}
+
+body > div.container > div > div{
+
+
+    color: rgb(211, 211, 211);
+    background-color: rgb(38, 38, 38);
+    margin-top: 4rem;
+    padding: 3rem;
+    border-radius: 10px;
+}
+
+body > div.container > div > div > form > div > button.add-btn.btn.blue.darken-3{
+
+    position: relative;
+    right: -0.75rem;
+
+}
+
+body > div.container > h3{
+
+    margin-bottom: 1.5rem;
+    margin-top: 3rem;
+
+}
+@media only screen and (min-width: 610px){
+
+body > nav > div > div > ul > li > a{
+
+    position: relative;
+    right: -1rem;
+    
+}
+    
+
+body > div.container > div > div > form > div > button.update-btn.btn.orange{
+
+    position: relative;
+    right: -0.75rem;
+
+}
+
+body > div.container > div > div > form > div > button.delete-btn.btn.red{
+
+    position: relative;
+    right: -1rem;
+
+}
+}
+/* @media only screen and (max-width: 1137px){
+
+    body > div.container > div > div > form > div > button.update-btn.btn.orange {
+   
+        font-size: 0.75rem;
+        padding: 0.5rem 1rem;
+        
+
+    }
+
+    body > div.container > div > div > form > div > button.update-btn.btn.orange > i{
+
+        font-size: 1rem;
+
+
+    }
+
+    body > div.container > div > div > form > div > button.delete-btn.btn.red{
+
+        font-size: 0.75rem;
+        padding: 0.5rem 1rem;
+
+    }
+
+    body > div.container > div > div > form > div > button.delete-btn.btn.red > i{
+
+        font-size: 0.75rem;
+
+
+    }
+
+} */
+
+@media only screen and (max-width: 610px){
+
+    body > div.container > div > div > form > div > button.update-btn.btn.orange{
+
+        margin-bottom: 0.75rem;
+
+    }
+
+    body > div.container > div > div > form > div > button.delete-btn.btn.red{
+
+        margin-bottom: 0.75rem;
+        text-align: center;
+
+    }
+
+}
+
+@media only screen and (min-width: 610px){
+
+    body > div.container > div > div > form > div > button.back-btn.btn.grey.pull-right{
+
+        position: relative;
+        left: -0.75rem;
+    
+    }
+
+}
+
+body > div.container > div > div > form > div > button.delete-btn.btn.red{
+
+    display: block;
+
+}
+
+body > div.container > div > div > form > div > button.back-btn.btn.grey.pull-right{
+
+
+    float: left;
+
+}
+
+body > div.container > div > div > form > div > button.back-btn.btn.grey.pull-right{
+
+    width: 93%;
+    position: relative;
+    right: -0.8rem;
+
+}
+
+body > div.container > div > div > form > div > button.update-btn.btn.orange{
+
+    width: 93%;
+    position: relative;
+    right: -0.8rem;
+
+}
+
+body > div.container > div > div > form > div > button.delete-btn.btn.red{
+
+    width: 93%;
+    position: relative;
+    right: -0.8rem;
+
+}
+
+
+@media only screen and (max-width: 992px){
+
+    nav .brand-logo {
+        right: -35%;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+}
+
+@media only screen and (max-width: 601px){
+
+    nav .brand-logo {
+        right: -40%;
+        -webkit-transform: translateX(0%);
+        transform: translateX(0%);
+    }
+
+}
